@@ -1,0 +1,2 @@
+(self.webpackChunkreact1=self.webpackChunkreact1||[]).push([[590],{9590:function(e,t,n){var r,u=n(2791),a=(r=u)&&"object"==typeof r&&"default"in r?r.default:r;e.exports=function(e){var t=e.children.split("\n").reduce((function(e,t,n){return e.push(a.createElement(u.Fragment,{key:n},t)),e.push(a.createElement("br",{key:n+"_br"})),e}),[]);return a.createElement(u.Fragment,null,t)}}}]);
+//# sourceMappingURL=590.47b68cf7.chunk.js.map
