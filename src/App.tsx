@@ -1,7 +1,5 @@
-import React, { lazy, Suspense } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { Discuzz, Config, Theme, prefersDarkMode } from '@discuzz/discuzz'
+import { lazy, Suspense } from 'react';
+import { Discuzz } from '@discuzz/discuzz'
 
 const LocaleProviderEn = lazy(() => import('@discuzz/locale-en'))
 
@@ -11,7 +9,7 @@ const ViewerPlaintext = lazy(() => import('@discuzz/viewer-plaintext'))
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Suspense fallback={<span>...</span>}>
         <Discuzz
           url={global.location.href}
